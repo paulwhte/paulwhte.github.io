@@ -9,21 +9,28 @@
         .centered {
             max-width: 500px;
             margin: auto;
-          }
+        }
+        #menu {
+              background-color: gray;
+        }
+        #whiteText {
+                color: white;   
+        }
     </style>
 </head>
 
     <body class="centered">
-        <div class="pure-menu pure-menu-horizontal">
-            <a href="index.html" class="pure-menu-heading pure-menu-link">Shed Rescue</a>
-            <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Gallery</a></li>
-                <li class="pure-menu-item"><a href="services.html" class="pure-menu-link">Services</a></li>
-                <li class="pure-menu-item"><a href="contact.html" class="pure-menu-link">Contact</a></li>
-            </ul>
-        </div>
+    <div id="menu" class="pure-menu pure-menu-horizontal">
+        <a id="whiteText" href="index.html" class="pure-menu-heading pure-menu-link">Shed Rescue</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a id="whiteText" href="index.html" class="pure-menu-link">Gallery</a></li>
+            <li class="pure-menu-item"><a id="whiteText" href="services.html" class="pure-menu-link">Services</a></li>
+            <li class="pure-menu-item"><a id="whiteText" href="contact.html" class="pure-menu-link">Contact</a></li>
+        </ul>
+    </div>
         
-        <div><img src="Shed_Rescue.png" alt="Shed Rescue Logo"></div>
+        <div style="width: 45%; float: left"><img style="max-height: 100%; max-width: 100%" src="Shed_Rescue.png" alt="Shed Rescue Logo"></div>
+        <div style="width: 45%; float: right"><h2>Shed repair and outdoor constructions</h2></div>
         
         <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
         <div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
